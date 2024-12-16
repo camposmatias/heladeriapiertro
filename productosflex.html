@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/odh5exg.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+    <script src="https://kit.fontawesome.com/11181f94df.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Heladerías Pietro</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <div>
+            <h1>Heladerías Pietro</h1>
+        </div>
+        <nav>
+            <button>Historia</button>
+            <a href="ubicacion.html"><button>Sucursales</button></a>
+            <a href="productosflex.html"><button>Productos con Flexbox</button></a>
+            <a href="productosgrid.html"><button>Productos con Grilla</button></a>
+            <a href="pedidos.html"><button>Pedidos</button></a>
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="caja">
+                <div>
+                    <h3>Chocolate</h3>
+                </div>
+                <div>
+                    <img src="./img/cucurucho1.jpg" alt="Helado Cucurucho de Chocolate">
+                </div>
+                <div>
+                    <button>Comprar!</button>
+                </div>
+            </div>
+            <div class="caja">
+                <div>
+                    <h3>Crema</h3>
+                </div>
+                <div>
+                    <img src="./img/cucurucho2.jpg" alt="Helado Cucurucho de Chocolate">
+                </div>
+                <div>
+                    <button>Comprar</button>
+                </div>
+
+            </div>
+            <div class="caja">
+                <div>
+                    <h3>Dulce</h3>
+                </div>
+                <div>
+                    <img src="./img/cucurucho3.jpg" alt="Helado Cucurucho de Chocolate">
+                </div>
+                <div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="caja">
+                <div>
+                    <h3>Chocolate</h3>
+                </div>
+                <div>
+                    <img src="./img/cucurucho4.jpg" alt="Helado Cucurucho de Chocolate">
+                </div>
+                <div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <section>
+        <div class="container my-5 text-center">
+              <h1>Ejemplo Fetch</h1>
+              <button class="btn-danger" onclick="traer()">Obtener</button>
+        </div>
+        <div class="mt-5" id="contenido">
+              <!--Contenido recuperado con Fetch -->
+        </div>
+    </section> 
+    <section>
+        <div class="container mt-5">
+            <h1 class="mb-4 text-center">Productos</h1>
+            <div class="row" id="products"></div>
+          </div>
+    </section>
+    <section>
+        <h1>Obtener Información de Usuario</h1>
+        <button onclick="getNombre(99)">Obtener Nombre de Usuario</button>
+    </section>
+
+    <footer>
+        <h6>Av. Rivadavia 789</h6>
+        <a href="mailto:mati.campos@bue.edu.ar">Desarrolado por: Matias Campos</a>
+        <br>
+        <i class="fi fi-brands-youtube"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <br>
+        <a href="index.html"><button>Atrás</button></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="api.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+  "nombre": "Juan",
+  "edad": 30,
+  "casado": false,
+  "hijos": ["Pedro", "María"],
+  "direccion": {
+    "calle": "Calle Falsa 123",
+    "ciudad": "Springfield"
+  }
+}
